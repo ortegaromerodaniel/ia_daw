@@ -57,27 +57,32 @@ KPI 3: Costo de adquisición de cliente (CAC)
 
 ## 6) Diagrama del pipeline (ASCII o Mermaid)
 (Pega aquí el diagrama)
-   A[Captura de datos de usuarios y transacciones] --> B[Limpieza y normalización de datos]
-    B --> C[Almacenamiento en Data Lake]
-    C --> D[Preparación de características]
-    D --> E[Entrenamiento de modelo IA]
-    E --> F[Predicción de abandono de carrito]
-    F --> G[Acción: Ofertas personalizadas/Descuentos]
-    G --> H[Conversión aumentada]
+   A [Captura de datos de usuarios y transacciones] --> B [Limpieza y normalización de datos]
+    B --> C [Almacenamiento en Data Lake]
+    C --> D [Preparación de características]
+    D --> E [Entrenamiento de modelo IA]
+    E --> F [Predicción de abandono de carrito]
+    F --> G [Acción: Ofertas personalizadas/Descuentos]
+    G --> H [Conversión aumentada]
 
 ## 7) Riesgos y mitigación
-Riesgo 1:
-- Mitigación 1:
+Riesgo 1: Falta de datos de calidad (errores o incompletitud en los datos de usuarios y transacciones).
+- Mitigación 1: Implementación de procesos automatizados de validación y limpieza de datos para asegurar la calidad.
 
-Riesgo 2:
-- Mitigación 2:
+Riesgo 2: Desviación de los resultados debido a cambios en el comportamiento de los usuarios.
+- Mitigación 2: Monitoreo constante del modelo de IA y actualización periódica de los algoritmos con datos nuevos.
 
 ## 8) Valoración (criterio c): importancia presente y futura de la IA (10–15 líneas)
-- Importancia actual (hoy):
-- Importancia futura (3–5 años):
-- Condiciones/limitaciones (datos, costes, regulación, ética, seguridad, empleo):
-- Conclusión razonada:
-
-## 9) Fuentes oficiales (mín. 2)
-- Big Data/analítica (enlace oficial):
-- IA/técnica/modelo (enlace oficial):
+- Importancia actual (hoy): La IA permite a RetailTech optimizar la experiencia del cliente y aumentar las ventas mediante la 
+  personalización. Las recomendaciones basadas en IA mejoran la conversión y permiten acciones en tiempo real que responden a las 
+  necesidades del consumidor.
+- Importancia futura (3–5 años): La IA será aún más crucial con el avance de la tecnología de personalización. La capacidad de predecir 
+  comportamientos a nivel individual permitirá una experiencia de compra completamente personalizada y fluida, lo que aumentará la 
+  competitividad.
+- Condiciones/limitaciones (datos, costes, regulación, ética, seguridad, empleo): La disponibilidad y calidad de los datos es esencial 
+  para el éxito de la IA. Además, las preocupaciones sobre privacidad y seguridad, junto con la regulación de los datos personales, 
+  pueden limitar el uso de ciertas tecnologías. La ética en el uso de IA también será un área clave de consideración, especialmente en 
+  términos de sesgo algorítmico.
+- Conclusión razonada: La IA está transformando la industria del retail al hacerla más eficiente y centrada en el cliente. Aunque hay 
+  desafíos éticos y regulatorios que deben ser gestionados, la implementación de IA se está convirtiendo en una ventaja competitiva 
+  clave que solo crecerá en importancia en el futuro cercano.
