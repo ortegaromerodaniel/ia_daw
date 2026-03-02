@@ -28,29 +28,42 @@ Explica el flujo de forma ordenada:
   las recomendaciones personalizadas.
 
 ## 4) IA aplicada: modelo y decisión
-- Tipo de IA/técnica (clasificación, predicción, recomendación, anomalías, NLP...):
-- Entrada del modelo (qué datos usa):
-- Salida del modelo (qué produce):
-- Decisión que habilita (qué hace la empresa con esa salida):
+- Tipo de IA/técnica (clasificación, predicción, recomendación, anomalías, NLP...): Predicción de abandono de carrito utilizando modelos 
+  de clasificación (Árboles de Decisión, Random Forest).
+- Entrada del modelo (qué datos usa): Datos de comportamiento del usuario (navegación, clics), historial de compras previas, 
+  características de los productos en el carrito.
+- Salida del modelo (qué produce): Probabilidad de que un usuario abandone el carrito antes de finalizar la compra.
+- Decisión que habilita (qué hace la empresa con esa salida): La empresa utiliza esta probabilidad para activar recomendaciones 
+  personalizadas en tiempo real o descuentos para evitar el abandono y fomentar la compra.
 
 ## 5) Rentabilidad: KPIs antes/después (mínimo 3)
-KPI 1 (ingresos/coste/eficiencia):
-- Antes:
-- Después:
-- Por qué mejora la rentabilidad:
+KPI 1: Tasa de conversión (compras/visitantes)
+- Antes: 3%
+- Después: 5%
+- Por qué mejora la rentabilidad: La predicción de abandono de carrito permite ofrecer incentivos personalizados en tiempo real, lo que 
+  aumenta las conversiones.
 
-KPI 2:
-- Antes:
-- Después:
-- Por qué mejora la rentabilidad:
+KPI 2: Valor promedio de pedido
+- Antes: 50 euros
+- Después: 60 euros
+- Por qué mejora la rentabilidad: Las recomendaciones personalizadas aumentan el valor de los pedidos, sugiriendo productos 
+  complementarios a los usuarios.
 
-KPI 3:
-- Antes:
-- Después:
-- Por qué mejora la rentabilidad:
+KPI 3: Costo de adquisición de cliente (CAC)
+- Antes: 15 euros
+- Después: 10 euros
+- Por qué mejora la rentabilidad: Gracias a la mejora en la tasa de conversión, la empresa reduce los costos asociados a la adquisición 
+  de nuevos clientes.
 
 ## 6) Diagrama del pipeline (ASCII o Mermaid)
 (Pega aquí el diagrama)
+   A[Captura de datos de usuarios y transacciones] --> B[Limpieza y normalización de datos]
+    B --> C[Almacenamiento en Data Lake]
+    C --> D[Preparación de características]
+    D --> E[Entrenamiento de modelo IA]
+    E --> F[Predicción de abandono de carrito]
+    F --> G[Acción: Ofertas personalizadas/Descuentos]
+    G --> H[Conversión aumentada]
 
 ## 7) Riesgos y mitigación
 Riesgo 1:
