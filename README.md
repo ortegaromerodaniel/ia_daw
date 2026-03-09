@@ -73,18 +73,21 @@
 
 
 ## 5) Diagrama (ASCII o Mermaid)
-(Pega aquí el diagrama)
+    A [Ciberseguridad] --> B [Python];
+    C [Educación] --> D [Java];
+    F [Entretenimiento] --> G [JavaScript];
 
 ## 6) Riesgos y mitigación
-- Riesgo 1:
-- Mitigación 1:
-- Riesgo 2:
-- Mitigación 2:
+- Riesgo 1: Privacidad de los datos.
+- Mitigación 1: Encriptación y cumplimiento de normativas como GDPR.
+- Riesgo 2: Encriptación y cumplimiento de normativas como GDPR.
+- Mitigación 2: Auditorías de IA y uso de "IA explicable".
 
 ## 7) Conclusión
-- Qué sectores destacan más:
-- Qué lenguajes aparecen con más frecuencia:
-- Qué importancia tiene esto para DAW/DAM:
+- Qué sectores destacan más: Ciberseguridad, Educación y Entretenimiento destacan por su uso intensivo de IA.
+- Qué lenguajes aparecen con más frecuencia: Python, Java y JavaScript.
+- Qué importancia tiene esto para DAW/DAM: La integración de IA en aplicaciones web es esencial para mejorar la experiencia del usuario 
+  y optimizar procesos.
 
 ## 8) Fuentes oficiales (mín. 2)
 - Fuente 1 (sectores / aplicación IA):
